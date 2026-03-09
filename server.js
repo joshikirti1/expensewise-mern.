@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 mongoose.connect(
-"mongodb+srv://expenseadmin:Expense123@expense-cluster.mo4e322.mongodb.net/expenseDB?retryWrites=true&w=majority"
+"mongodb+srv://expenseadmin:Expense123@expense-cluster.mo4e322.mongodb.net/?appName=expense-cluster"
 )
 .then(()=>console.log("MongoDB Connected"))
 .catch(err=>console.log(err));
