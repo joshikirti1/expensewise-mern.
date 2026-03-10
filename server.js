@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 mongoose.connect(
-"mongodb+srv://expenseadmin:Expense123@expense-cluster.mo4e322.mongodb.net/?appName=expense-cluster"
+"mongo-url"
 )
 .then(()=>console.log("MongoDB Connected"))
 .catch(err=>console.log(err));
